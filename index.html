@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Budget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculate You Valentine Budget</h1>
+    </header>
+    <main>
+        <section id="main-section">
+            <div id="gifts">
+                <div id="kitkat">
+                    <img src="./img/kitkat.jpg" alt="" class="gift-img">
+                    <p>kitKat Chocolate</p>
+                    <h4>Price: <span id="kitkat-price">140</span></h4>
+                    <input type="text" placeholder="Quantity" id="kitkat-quantity"> <br>
+                    <button id="buy-kitkat">Buy Now</button>
+                </div>
+
+                <div id="rose">
+                    <img src="./img/rose.jpg" alt="" class="gift-img">
+                    <p>Rose</p>
+                    <h4>Price: <span id="red-rose-price">200</span></h4>
+                    <input type="text" placeholder="Quantity" id="rose-quantity"> <br>
+                    <button id="buy-rose">Buy Now</button>
+                </div>
+
+                <div id="watch">
+                    <img src="./img/watch.webp" alt="" class="gift-img">
+                    <p>Watch</p>
+                    <h4>Price: <span id="watch-price">550</span></h4>
+                    <input type="text" placeholder="Quantity" id="watch-quantity"> <br>
+                    <button id="buy-watch">Buy Now</button>
+                </div>
+            </div>
+            <div id="check-out">
+                <div>
+                    <h3>Chocolate : <span id="chocolate-price"></span></h3>
+                    <h3>Rose: <span id="rose-price"></span></h3>
+                    <h3>Watch: <span id="watch-total-price"></span></h3>
+                    <h3>Total: <span id="total-price"></span></h3>
+                </div>
+                <div>
+                    <h3 id="coupon">Use Coupon code "ILOVEYOU" for 10% Discount</h3>
+                    <input type="text" placeholder="Enter Coupon Code" id="coupon-code"> <button id="apply">Apply</button>
+
+                    <h2>All Cost: <span id="discount-price"></span></h2>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="./JS/app.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

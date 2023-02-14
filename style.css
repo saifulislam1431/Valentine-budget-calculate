@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 90%;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: lightpink;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    color: lightseagreen;
+}
+
+#main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.gift-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#kitkat,
+#rose,
+#watch {
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px gray;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+input {
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    border: none;
+    background-color: darkslateblue;
+    color: white;
+    border-radius: 5px;
+}
+
+#check-out {
+    border: 3px solid plum;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
